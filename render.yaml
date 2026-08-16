@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: discord-roblox-bind-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TOKEN
+        sync: false

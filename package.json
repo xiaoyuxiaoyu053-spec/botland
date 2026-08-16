@@ -1,0 +1,14 @@
+{
+  "name": "discord-roblox-bind-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "express": "^5.1.0",
+    "better-sqlite3": "^12.4.1"
+  }
+}
